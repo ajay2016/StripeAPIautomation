@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+	<listeners>
+
+		<listener
+			class-name="com.automation.APIautomationFramework.reports.ExtentListeners" />
+
+	</listeners>
+
+
+	<test name="CreateCustomerTest">
+		<classes>
+			<class
+				name="com.automation.APIautomationFramework.testcases.CreateCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="DeleteCustomerTest">
+		<classes>
+			<class
+				name="com.automation.APIautomationFramework.testcases.DeleteCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

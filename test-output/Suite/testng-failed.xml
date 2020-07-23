@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.automation.APIautomationFramework.reports.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="CreateCustomerTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.automation.APIautomationFramework.testcases.CreateCustomerTest">
+        <methods>
+          <include name="CreateCustomerAPIInvalid" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="CreateCustomerAPIValid" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.APIautomationFramework.testcases.CreateCustomerTest -->
+    </classes>
+  </test> <!-- CreateCustomerTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
