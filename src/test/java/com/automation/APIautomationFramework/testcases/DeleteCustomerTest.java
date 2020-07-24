@@ -19,6 +19,7 @@ import com.aventstack.extentreports.Status;
 
 import io.restassured.response.Response;
 
+//extends Base
 public class DeleteCustomerTest extends BaseTest {
 
 	@Test(dataProviderClass = DataUtil.class, dataProvider = "data")
