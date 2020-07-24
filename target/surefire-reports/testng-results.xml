@@ -2,20 +2,20 @@
 <testng-results skipped="2" failed="2" ignored="0" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2143" started-at="2020-07-23T02:48:22Z" finished-at="2020-07-23T02:48:24Z">
+  <suite name="Suite" duration-ms="2119" started-at="2020-07-24T01:57:49Z" finished-at="2020-07-24T01:57:52Z">
     <groups>
     </groups>
-    <test name="DeleteCustomerTest" duration-ms="1791" started-at="2020-07-23T02:48:22Z" finished-at="2020-07-23T02:48:24Z">
+    <test name="DeleteCustomerTest" duration-ms="1791" started-at="2020-07-24T01:57:49Z" finished-at="2020-07-24T01:57:51Z">
       <class name="com.automation.APIautomationFramework.testcases.DeleteCustomerTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.APIautomationFramework.testcases.DeleteCustomerTest@2f54a33d]" name="setUp" is-config="true" duration-ms="416" started-at="2020-07-23T12:48:21Z" finished-at="2020-07-23T12:48:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.APIautomationFramework.testcases.DeleteCustomerTest@2f54a33d]" name="setUp" is-config="true" duration-ms="400" started-at="2020-07-24T11:57:49Z" finished-at="2020-07-24T11:57:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="DeleteCustomer(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.DeleteCustomerTest@2f54a33d]" name="DeleteCustomer" duration-ms="1761" started-at="2020-07-23T12:48:22Z" data-provider="data" finished-at="2020-07-23T12:48:24Z">
+        <test-method status="FAIL" signature="DeleteCustomer(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.DeleteCustomerTest@2f54a33d]" name="DeleteCustomer" duration-ms="1764" started-at="2020-07-24T11:57:49Z" data-provider="data" finished-at="2020-07-24T11:57:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Runmode=Y, id=cus_HguK9iKn87CvrJ}]]>
+                <![CDATA[{Runmode=Y, id=java@way2automation.com}]]>
               </value>
             </param>
           </params>
@@ -53,19 +53,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteCustomer -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.APIautomationFramework.testcases.DeleteCustomerTest@2f54a33d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-23T12:48:24Z" finished-at="2020-07-23T12:48:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.APIautomationFramework.testcases.DeleteCustomerTest@2f54a33d]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-24T11:57:52Z" finished-at="2020-07-24T11:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.APIautomationFramework.testcases.DeleteCustomerTest -->
     </test> <!-- DeleteCustomerTest -->
-    <test name="CreateCustomerTest" duration-ms="2143" started-at="2020-07-23T02:48:22Z" finished-at="2020-07-23T02:48:24Z">
+    <test name="CreateCustomerTest" duration-ms="2119" started-at="2020-07-24T01:57:49Z" finished-at="2020-07-24T01:57:52Z">
       <class name="com.automation.APIautomationFramework.testcases.CreateCustomerTest">
-        <test-method status="FAIL" signature="CreateCustomerAPIInvalid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIInvalid" duration-ms="1513" started-at="2020-07-23T12:48:22Z" data-provider="data" finished-at="2020-07-23T12:48:23Z">
+        <test-method status="FAIL" signature="CreateCustomerAPIInvalid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIInvalid" duration-ms="1524" started-at="2020-07-24T11:57:49Z" data-provider="data" finished-at="2020-07-24T11:57:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{email=java@way2automation.com, name=Rahul Arora, Runmode=row 9 or column 0 does not exist  in xls, description=Adding the Second customer in framework}]]>
+                <![CDATA[{email=java@way2automation.com, name=Runmode, Runmode=Y, description=Adding the Second customer in framework}]]>
               </value>
             </param>
           </params>
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomerAPIInvalid -->
-        <test-method status="SKIP" signature="CreateCustomerAPIValid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIValid" duration-ms="1" started-at="2020-07-23T12:48:23Z" data-provider="data" finished-at="2020-07-23T12:48:23Z">
+        <test-method status="SKIP" signature="CreateCustomerAPIValid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIValid" duration-ms="1" started-at="2020-07-24T11:57:51Z" data-provider="data" finished-at="2020-07-24T11:57:51Z">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomerAPIValid -->
-        <test-method status="PASS" signature="CreateCustomerAPIValid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIValid" duration-ms="589" started-at="2020-07-23T12:48:23Z" data-provider="data" finished-at="2020-07-23T12:48:24Z">
+        <test-method status="PASS" signature="CreateCustomerAPIValid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIValid" duration-ms="553" started-at="2020-07-24T11:57:51Z" data-provider="data" finished-at="2020-07-24T11:57:52Z">
           <params>
             <param index="0">
               <value>
@@ -150,7 +150,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomerAPIValid -->
-        <test-method status="SKIP" signature="CreateCustomerAPIValid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIValid" duration-ms="1" started-at="2020-07-23T12:48:23Z" data-provider="data" finished-at="2020-07-23T12:48:23Z">
+        <test-method status="SKIP" signature="CreateCustomerAPIValid(java.util.Hashtable)[pri:0, instance:com.automation.APIautomationFramework.testcases.CreateCustomerTest@5609159b]" name="CreateCustomerAPIValid" duration-ms="1" started-at="2020-07-24T11:57:51Z" data-provider="data" finished-at="2020-07-24T11:57:51Z">
           <params>
             <param index="0">
               <value>

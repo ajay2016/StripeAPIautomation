@@ -26,7 +26,7 @@
       <class name="com.automation.APIautomationFramework.testcases.CreateCustomerTest">
         <methods>
           <include name="CreateCustomerAPIInvalid" invocation-numbers="0"/>
-          <include name="CreateCustomerAPIValid" invocation-numbers="0 2"/>
+          <include name="CreateCustomerAPIValid" invocation-numbers="2 0"/>
         </methods>
       </class> <!-- com.automation.APIautomationFramework.testcases.CreateCustomerTest -->
     </classes>
