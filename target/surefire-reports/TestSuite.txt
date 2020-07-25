@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 3.998 s <<< FAILURE! - in TestSuite
-CreateCustomerAPIInvalid(com.automation.APIautomationFramework.testcases.CreateCustomerTest)  Time elapsed: 1.531 s  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 20.049 s <<< FAILURE! - in TestSuite
+CreateCustomerAPIInvalid(com.automation.APIautomationFramework.testcases.CreateCustomerTest)  Time elapsed: 1.685 s  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [401]
 	at com.automation.APIautomationFramework.testcases.CreateCustomerTest.CreateCustomerAPIInvalid(CreateCustomerTest.java:95)
 
-DeleteCustomer(com.automation.APIautomationFramework.testcases.DeleteCustomerTest)  Time elapsed: 0.226 s  <<< FAILURE!
+DeleteCustomer(com.automation.APIautomationFramework.testcases.DeleteCustomerTest)  Time elapsed: 0.395 s  <<< FAILURE!
 java.lang.AssertionError: expected [200] but found [404]
-	at com.automation.APIautomationFramework.testcases.DeleteCustomerTest.DeleteCustomer(DeleteCustomerTest.java:50)
+	at com.automation.APIautomationFramework.testcases.DeleteCustomerTest.DeleteCustomer(DeleteCustomerTest.java:51)
 

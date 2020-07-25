@@ -1,10 +1,17 @@
 com\automation\APIautomationFramework\APIs\DeleteCustomerAPI.class
+com\automation\APIautomationFramework\utilities\MonitoringMail$1.class
 com\automation\APIautomationFramework\utilities\ExcelReader.class
 com\automation\APIautomationFramework\base\BaseTest.class
 com\automation\APIautomationFramework\reports\ExtentListeners.class
+com\automation\APIautomationFramework\utilities\TestConfig.class
 com\automation\APIautomationFramework\APIs\CreateCustomerAPI.class
 com\automation\APIautomationFramework\reports\ExtentManager.class
+com\automation\APIautomationFramework\utilities\MonitoringMail$SMTPAuthenticator.class
+com\automation\APIautomationFramework\rough\TestMail.class
 com\automation\APIautomationFramework\utilities\TestUtil.class
 com\automation\APIautomationFramework\testcases\DeleteCustomerTest.class
+com\automation\APIautomationFramework\utilities\MonitoringMail.class
+com\automation\APIautomationFramework\rough\TestProperties.class
+com\automation\APIautomationFramework\rough\TestIP.class
 com\automation\APIautomationFramework\utilities\DataUtil.class
 com\automation\APIautomationFramework\testcases\CreateCustomerTest.class

@@ -17,18 +17,18 @@
   </test> <!-- DeleteCustomerTest(failed) -->
   <test name="CreateCustomerTest(failed)" parallel="tests">
     <classes>
+      <class name="com.automation.APIautomationFramework.testcases.CreateCustomerTest">
+        <methods>
+          <include name="CreateCustomerAPIInvalid" invocation-numbers="0"/>
+          <include name="CreateCustomerAPIValid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automation.APIautomationFramework.testcases.CreateCustomerTest -->
       <class name="com.automation.APIautomationFramework.testcases.DeleteCustomerTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.automation.APIautomationFramework.testcases.DeleteCustomerTest -->
-      <class name="com.automation.APIautomationFramework.testcases.CreateCustomerTest">
-        <methods>
-          <include name="CreateCustomerAPIInvalid" invocation-numbers="0"/>
-          <include name="CreateCustomerAPIValid" invocation-numbers="2 0"/>
-        </methods>
-      </class> <!-- com.automation.APIautomationFramework.testcases.CreateCustomerTest -->
     </classes>
   </test> <!-- CreateCustomerTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

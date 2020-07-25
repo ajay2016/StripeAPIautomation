@@ -5,7 +5,7 @@
 	<groupId>com.automation</groupId>
 	<artifactId>APIautomationFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -20,8 +20,8 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	
+
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
@@ -43,6 +43,13 @@
 			<version>4.3.0</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 		<dependency>
@@ -106,6 +113,6 @@
 			<version>4.0.9</version>
 		</dependency>
 	</dependencies>
-	
+
 
 </project>

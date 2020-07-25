@@ -1,7 +1,12 @@
 package com.automation.APIautomationFramework.reports;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 import java.util.Arrays;
 import java.util.Date;
+
+import javax.mail.MessagingException;
+import javax.mail.internet.AddressException;
 
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
@@ -9,6 +14,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.automation.APIautomationFramework.utilities.MonitoringMail;
+import com.automation.APIautomationFramework.utilities.TestConfig;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -99,18 +106,24 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 
 	public void onFinish(ISuite suite) {
 
-		/*
-		 * try { messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+
-		 * ":8080/job/APITestingFramework/Extent_20Reports/"+fileName; } catch
-		 * (UnknownHostException e) { // TODO Auto-generated catch block
-		 * e.printStackTrace(); }
-		 * 
-		 * MonitoringMail mail = new MonitoringMail(); try {
-		 * mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to,
-		 * TestConfig.subject, messageBody); } catch (AddressException e) { // TODO
-		 * Auto-generated catch block e.printStackTrace(); } catch (MessagingException
-		 * e) { // TODO Auto-generated catch block e.printStackTrace(); }
-		 */
+		
+		try {
+			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/StripeAPIAutomationFramework/Extent_20Reports/"+fileName;
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		MonitoringMail mail = new MonitoringMail();
+		try {
+			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
+		} catch (AddressException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (MessagingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
